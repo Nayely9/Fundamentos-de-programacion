@@ -1,8 +1,8 @@
 #Crear el diccionario inicial
 informacion_personal = {
-    "nombre": "Juan Gómez",
+    "nombre": "Javier Aguinda",
     "edad": 25,
-    "ciudad": "Quito",
+    "ciudad": "Guayaquil",
     "profesion": "Doctor"
 }
 
@@ -21,3 +21,8 @@ informacion_personal.pop("edad")
 
 #Imprimir el diccionario final
 print("Diccionario final:", informacion_personal)
+
+# Imprimir cada clave y valor usando iteración
+print("Diccionario final:")
+for clave, valor in informacion_personal.items():
+    print(f"{clave}: {valor}")
