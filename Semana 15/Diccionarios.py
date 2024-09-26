@@ -1,8 +1,8 @@
 #Crear el diccionario inicial
 informacion_personal = {
-    "nombre": "Javier Aguinda",
+    "nombre": "Juan Gomez",
     "edad": 25,
-    "ciudad": "Guayaquil",
+    "ciudad": "Quito",
     "profesion": "Doctor"
 }
 
